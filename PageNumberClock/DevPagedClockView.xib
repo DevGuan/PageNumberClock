@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9531" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="Wv0-Pz-Wp4" customClass="DevPagedClockView">
+            <rect key="frame" x="0.0" y="0.0" width="266" height="68"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="sc6-Xp-fRj">
+                    <rect key="frame" x="134" y="-1" width="40" height="70"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="40" id="Naz-L1-di8"/>
+                        <constraint firstAttribute="height" constant="70" id="kJr-27-793"/>
+                    </constraints>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="AuM-2T-7OR">
+                    <rect key="frame" x="92" y="-1" width="40" height="70"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="70" id="3LY-7v-Qoy"/>
+                        <constraint firstAttribute="width" constant="40" id="4EC-9E-MRF"/>
+                    </constraints>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="0Wf-0j-Asd">
+                    <rect key="frame" x="184" y="-1" width="40" height="70"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="70" id="PKJ-kC-lG3"/>
+                        <constraint firstAttribute="width" constant="40" id="UlA-qG-lJo"/>
+                    </constraints>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="ZgI-N3-kum">
+                    <rect key="frame" x="42" y="-1" width="40" height="70"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="70" id="0eg-i1-uTo"/>
+                        <constraint firstAttribute="width" constant="40" id="XMu-ao-LP8"/>
+                    </constraints>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="3jS-Qo-OaM">
+                    <rect key="frame" x="0.0" y="-1" width="40" height="70"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="70" id="tyU-Rv-JWO"/>
+                        <constraint firstAttribute="width" constant="40" id="yt0-Qr-vf5"/>
+                    </constraints>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="cfw-cU-SgD">
+                    <rect key="frame" x="226" y="-1" width="40" height="70"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="70" id="Fjm-sY-EFQ"/>
+                        <constraint firstAttribute="width" constant="40" id="wBS-vs-kLe"/>
+                    </constraints>
+                </imageView>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="3jS-Qo-OaM" firstAttribute="centerY" secondItem="Wv0-Pz-Wp4" secondAttribute="centerY" id="8cN-vm-Qnf"/>
+                <constraint firstItem="AuM-2T-7OR" firstAttribute="centerY" secondItem="Wv0-Pz-Wp4" secondAttribute="centerY" id="Ckr-pf-yL9"/>
+                <constraint firstItem="AuM-2T-7OR" firstAttribute="centerX" secondItem="Wv0-Pz-Wp4" secondAttribute="centerX" constant="-21" id="GnM-Dq-m8g"/>
+                <constraint firstItem="cfw-cU-SgD" firstAttribute="leading" secondItem="0Wf-0j-Asd" secondAttribute="trailing" constant="2" id="JAC-IJ-Ddn"/>
+                <constraint firstItem="0Wf-0j-Asd" firstAttribute="leading" secondItem="sc6-Xp-fRj" secondAttribute="trailing" constant="10" id="Ms5-4g-A6U"/>
+                <constraint firstItem="ZgI-N3-kum" firstAttribute="leading" secondItem="3jS-Qo-OaM" secondAttribute="trailing" constant="2" id="MyP-hC-AVS"/>
+                <constraint firstItem="sc6-Xp-fRj" firstAttribute="leading" secondItem="AuM-2T-7OR" secondAttribute="trailing" constant="2" id="RMu-cw-0z2"/>
+                <constraint firstItem="sc6-Xp-fRj" firstAttribute="centerY" secondItem="Wv0-Pz-Wp4" secondAttribute="centerY" id="TS7-Tm-OBB"/>
+                <constraint firstItem="ZgI-N3-kum" firstAttribute="centerY" secondItem="Wv0-Pz-Wp4" secondAttribute="centerY" id="cu3-Qz-zSh"/>
+                <constraint firstItem="0Wf-0j-Asd" firstAttribute="centerY" secondItem="Wv0-Pz-Wp4" secondAttribute="centerY" id="rLi-q0-67b"/>
+                <constraint firstItem="AuM-2T-7OR" firstAttribute="leading" secondItem="ZgI-N3-kum" secondAttribute="trailing" constant="10" id="uM1-2p-zYo"/>
+                <constraint firstItem="cfw-cU-SgD" firstAttribute="centerY" secondItem="Wv0-Pz-Wp4" secondAttribute="centerY" id="xMX-e8-axx"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="hourImageView1" destination="ZgI-N3-kum" id="Ils-UN-Rkw"/>
+                <outlet property="hourImageView2" destination="3jS-Qo-OaM" id="tNW-ff-FBR"/>
+                <outlet property="minuteImageView1" destination="sc6-Xp-fRj" id="F10-6l-dpu"/>
+                <outlet property="minuteImageView2" destination="AuM-2T-7OR" id="rSO-lY-gvb"/>
+                <outlet property="secondImageView1" destination="cfw-cU-SgD" id="W45-pX-BZd"/>
+                <outlet property="secondImageView2" destination="0Wf-0j-Asd" id="RLc-4C-Yuf"/>
+            </connections>
+            <point key="canvasLocation" x="326" y="205"/>
+        </view>
+    </objects>
+</document>

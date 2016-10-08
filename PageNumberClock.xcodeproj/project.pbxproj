@@ -1,0 +1,529 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D68BA1EE1DA8973000A6CAA0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D68BA1ED1DA8973000A6CAA0 /* main.m */; };
+		D68BA1F11DA8973000A6CAA0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D68BA1F01DA8973000A6CAA0 /* AppDelegate.m */; };
+		D68BA1F41DA8973000A6CAA0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D68BA1F31DA8973000A6CAA0 /* ViewController.m */; };
+		D68BA1F71DA8973000A6CAA0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D68BA1F51DA8973000A6CAA0 /* Main.storyboard */; };
+		D68BA1F91DA8973000A6CAA0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D68BA1F81DA8973000A6CAA0 /* Assets.xcassets */; };
+		D68BA1FC1DA8973000A6CAA0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D68BA1FA1DA8973000A6CAA0 /* LaunchScreen.storyboard */; };
+		D68BA2071DA8973000A6CAA0 /* PageNumberClockTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D68BA2061DA8973000A6CAA0 /* PageNumberClockTests.m */; };
+		D68BA2121DA8973000A6CAA0 /* PageNumberClockUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = D68BA2111DA8973000A6CAA0 /* PageNumberClockUITests.m */; };
+		D68BA2211DA8978400A6CAA0 /* DevPagedClockView.m in Sources */ = {isa = PBXBuildFile; fileRef = D68BA2201DA8978400A6CAA0 /* DevPagedClockView.m */; };
+		D68BA2231DA897AF00A6CAA0 /* DevPagedClockView.xib in Resources */ = {isa = PBXBuildFile; fileRef = D68BA2221DA897AF00A6CAA0 /* DevPagedClockView.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D68BA2031DA8973000A6CAA0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D68BA1E11DA8973000A6CAA0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D68BA1E81DA8973000A6CAA0;
+			remoteInfo = PageNumberClock;
+		};
+		D68BA20E1DA8973000A6CAA0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D68BA1E11DA8973000A6CAA0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D68BA1E81DA8973000A6CAA0;
+			remoteInfo = PageNumberClock;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D68BA1E91DA8973000A6CAA0 /* PageNumberClock.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PageNumberClock.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D68BA1ED1DA8973000A6CAA0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D68BA1EF1DA8973000A6CAA0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D68BA1F01DA8973000A6CAA0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D68BA1F21DA8973000A6CAA0 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		D68BA1F31DA8973000A6CAA0 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		D68BA1F61DA8973000A6CAA0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D68BA1F81DA8973000A6CAA0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D68BA1FB1DA8973000A6CAA0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D68BA1FD1DA8973000A6CAA0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D68BA2021DA8973000A6CAA0 /* PageNumberClockTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PageNumberClockTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D68BA2061DA8973000A6CAA0 /* PageNumberClockTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PageNumberClockTests.m; sourceTree = "<group>"; };
+		D68BA2081DA8973000A6CAA0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D68BA20D1DA8973000A6CAA0 /* PageNumberClockUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PageNumberClockUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D68BA2111DA8973000A6CAA0 /* PageNumberClockUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PageNumberClockUITests.m; sourceTree = "<group>"; };
+		D68BA2131DA8973000A6CAA0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D68BA21F1DA8978400A6CAA0 /* DevPagedClockView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DevPagedClockView.h; sourceTree = "<group>"; };
+		D68BA2201DA8978400A6CAA0 /* DevPagedClockView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DevPagedClockView.m; sourceTree = "<group>"; };
+		D68BA2221DA897AF00A6CAA0 /* DevPagedClockView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DevPagedClockView.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D68BA1E61DA8973000A6CAA0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D68BA1FF1DA8973000A6CAA0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D68BA20A1DA8973000A6CAA0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D68BA1E01DA8973000A6CAA0 = {
+			isa = PBXGroup;
+			children = (
+				D68BA1EB1DA8973000A6CAA0 /* PageNumberClock */,
+				D68BA2051DA8973000A6CAA0 /* PageNumberClockTests */,
+				D68BA2101DA8973000A6CAA0 /* PageNumberClockUITests */,
+				D68BA1EA1DA8973000A6CAA0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D68BA1EA1DA8973000A6CAA0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D68BA1E91DA8973000A6CAA0 /* PageNumberClock.app */,
+				D68BA2021DA8973000A6CAA0 /* PageNumberClockTests.xctest */,
+				D68BA20D1DA8973000A6CAA0 /* PageNumberClockUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D68BA1EB1DA8973000A6CAA0 /* PageNumberClock */ = {
+			isa = PBXGroup;
+			children = (
+				D68BA1EF1DA8973000A6CAA0 /* AppDelegate.h */,
+				D68BA1F01DA8973000A6CAA0 /* AppDelegate.m */,
+				D68BA1F21DA8973000A6CAA0 /* ViewController.h */,
+				D68BA1F31DA8973000A6CAA0 /* ViewController.m */,
+				D68BA21F1DA8978400A6CAA0 /* DevPagedClockView.h */,
+				D68BA2201DA8978400A6CAA0 /* DevPagedClockView.m */,
+				D68BA2221DA897AF00A6CAA0 /* DevPagedClockView.xib */,
+				D68BA1F51DA8973000A6CAA0 /* Main.storyboard */,
+				D68BA1F81DA8973000A6CAA0 /* Assets.xcassets */,
+				D68BA1FA1DA8973000A6CAA0 /* LaunchScreen.storyboard */,
+				D68BA1FD1DA8973000A6CAA0 /* Info.plist */,
+				D68BA1EC1DA8973000A6CAA0 /* Supporting Files */,
+			);
+			path = PageNumberClock;
+			sourceTree = "<group>";
+		};
+		D68BA1EC1DA8973000A6CAA0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D68BA1ED1DA8973000A6CAA0 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D68BA2051DA8973000A6CAA0 /* PageNumberClockTests */ = {
+			isa = PBXGroup;
+			children = (
+				D68BA2061DA8973000A6CAA0 /* PageNumberClockTests.m */,
+				D68BA2081DA8973000A6CAA0 /* Info.plist */,
+			);
+			path = PageNumberClockTests;
+			sourceTree = "<group>";
+		};
+		D68BA2101DA8973000A6CAA0 /* PageNumberClockUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D68BA2111DA8973000A6CAA0 /* PageNumberClockUITests.m */,
+				D68BA2131DA8973000A6CAA0 /* Info.plist */,
+			);
+			path = PageNumberClockUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D68BA1E81DA8973000A6CAA0 /* PageNumberClock */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D68BA2161DA8973000A6CAA0 /* Build configuration list for PBXNativeTarget "PageNumberClock" */;
+			buildPhases = (
+				D68BA1E51DA8973000A6CAA0 /* Sources */,
+				D68BA1E61DA8973000A6CAA0 /* Frameworks */,
+				D68BA1E71DA8973000A6CAA0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PageNumberClock;
+			productName = PageNumberClock;
+			productReference = D68BA1E91DA8973000A6CAA0 /* PageNumberClock.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D68BA2011DA8973000A6CAA0 /* PageNumberClockTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D68BA2191DA8973000A6CAA0 /* Build configuration list for PBXNativeTarget "PageNumberClockTests" */;
+			buildPhases = (
+				D68BA1FE1DA8973000A6CAA0 /* Sources */,
+				D68BA1FF1DA8973000A6CAA0 /* Frameworks */,
+				D68BA2001DA8973000A6CAA0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D68BA2041DA8973000A6CAA0 /* PBXTargetDependency */,
+			);
+			name = PageNumberClockTests;
+			productName = PageNumberClockTests;
+			productReference = D68BA2021DA8973000A6CAA0 /* PageNumberClockTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D68BA20C1DA8973000A6CAA0 /* PageNumberClockUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D68BA21C1DA8973000A6CAA0 /* Build configuration list for PBXNativeTarget "PageNumberClockUITests" */;
+			buildPhases = (
+				D68BA2091DA8973000A6CAA0 /* Sources */,
+				D68BA20A1DA8973000A6CAA0 /* Frameworks */,
+				D68BA20B1DA8973000A6CAA0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D68BA20F1DA8973000A6CAA0 /* PBXTargetDependency */,
+			);
+			name = PageNumberClockUITests;
+			productName = PageNumberClockUITests;
+			productReference = D68BA20D1DA8973000A6CAA0 /* PageNumberClockUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D68BA1E11DA8973000A6CAA0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = com.ec;
+				TargetAttributes = {
+					D68BA1E81DA8973000A6CAA0 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					D68BA2011DA8973000A6CAA0 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = D68BA1E81DA8973000A6CAA0;
+					};
+					D68BA20C1DA8973000A6CAA0 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = D68BA1E81DA8973000A6CAA0;
+					};
+				};
+			};
+			buildConfigurationList = D68BA1E41DA8973000A6CAA0 /* Build configuration list for PBXProject "PageNumberClock" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D68BA1E01DA8973000A6CAA0;
+			productRefGroup = D68BA1EA1DA8973000A6CAA0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D68BA1E81DA8973000A6CAA0 /* PageNumberClock */,
+				D68BA2011DA8973000A6CAA0 /* PageNumberClockTests */,
+				D68BA20C1DA8973000A6CAA0 /* PageNumberClockUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D68BA1E71DA8973000A6CAA0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D68BA1FC1DA8973000A6CAA0 /* LaunchScreen.storyboard in Resources */,
+				D68BA2231DA897AF00A6CAA0 /* DevPagedClockView.xib in Resources */,
+				D68BA1F91DA8973000A6CAA0 /* Assets.xcassets in Resources */,
+				D68BA1F71DA8973000A6CAA0 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D68BA2001DA8973000A6CAA0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D68BA20B1DA8973000A6CAA0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D68BA1E51DA8973000A6CAA0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D68BA1F41DA8973000A6CAA0 /* ViewController.m in Sources */,
+				D68BA2211DA8978400A6CAA0 /* DevPagedClockView.m in Sources */,
+				D68BA1F11DA8973000A6CAA0 /* AppDelegate.m in Sources */,
+				D68BA1EE1DA8973000A6CAA0 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D68BA1FE1DA8973000A6CAA0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D68BA2071DA8973000A6CAA0 /* PageNumberClockTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D68BA2091DA8973000A6CAA0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D68BA2121DA8973000A6CAA0 /* PageNumberClockUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D68BA2041DA8973000A6CAA0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D68BA1E81DA8973000A6CAA0 /* PageNumberClock */;
+			targetProxy = D68BA2031DA8973000A6CAA0 /* PBXContainerItemProxy */;
+		};
+		D68BA20F1DA8973000A6CAA0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D68BA1E81DA8973000A6CAA0 /* PageNumberClock */;
+			targetProxy = D68BA20E1DA8973000A6CAA0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D68BA1F51DA8973000A6CAA0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D68BA1F61DA8973000A6CAA0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D68BA1FA1DA8973000A6CAA0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D68BA1FB1DA8973000A6CAA0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D68BA2141DA8973000A6CAA0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		D68BA2151DA8973000A6CAA0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D68BA2171DA8973000A6CAA0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PageNumberClock/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ec.net.PageNumberClock;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D68BA2181DA8973000A6CAA0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PageNumberClock/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ec.net.PageNumberClock;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		D68BA21A1DA8973000A6CAA0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = PageNumberClockTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ec.net.PageNumberClockTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PageNumberClock.app/PageNumberClock";
+			};
+			name = Debug;
+		};
+		D68BA21B1DA8973000A6CAA0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = PageNumberClockTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ec.net.PageNumberClockTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PageNumberClock.app/PageNumberClock";
+			};
+			name = Release;
+		};
+		D68BA21D1DA8973000A6CAA0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = PageNumberClockUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ec.net.PageNumberClockUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = PageNumberClock;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		D68BA21E1DA8973000A6CAA0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = PageNumberClockUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ec.net.PageNumberClockUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = PageNumberClock;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D68BA1E41DA8973000A6CAA0 /* Build configuration list for PBXProject "PageNumberClock" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D68BA2141DA8973000A6CAA0 /* Debug */,
+				D68BA2151DA8973000A6CAA0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D68BA2161DA8973000A6CAA0 /* Build configuration list for PBXNativeTarget "PageNumberClock" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D68BA2171DA8973000A6CAA0 /* Debug */,
+				D68BA2181DA8973000A6CAA0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D68BA2191DA8973000A6CAA0 /* Build configuration list for PBXNativeTarget "PageNumberClockTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D68BA21A1DA8973000A6CAA0 /* Debug */,
+				D68BA21B1DA8973000A6CAA0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D68BA21C1DA8973000A6CAA0 /* Build configuration list for PBXNativeTarget "PageNumberClockUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D68BA21D1DA8973000A6CAA0 /* Debug */,
+				D68BA21E1DA8973000A6CAA0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D68BA1E11DA8973000A6CAA0 /* Project object */;
+}
